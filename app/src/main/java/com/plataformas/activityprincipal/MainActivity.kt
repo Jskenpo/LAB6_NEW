@@ -16,6 +16,7 @@ class MainActivity : AppCompatActivity() {
 
         bottomNav = findViewById(R.id.bottom_navigation)
         setListener()
+        setFragment(HomeFragment.newInstance("Jose", "Santisteban"))
     }
 
     private fun setListener() {
