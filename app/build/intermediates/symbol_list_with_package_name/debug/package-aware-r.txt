@@ -1207,6 +1207,7 @@ color background_floating_material_light
 color background_material_dark
 color background_material_light
 color black
+color blanco
 color bright_foreground_disabled_material_dark
 color bright_foreground_disabled_material_light
 color bright_foreground_inverse_material_dark
@@ -1694,6 +1695,7 @@ color material_timepicker_button_stroke
 color material_timepicker_clock_text_color
 color material_timepicker_clockface
 color material_timepicker_modebutton_tint
+color menosrojo
 color mtrl_btn_bg_color_selector
 color mtrl_btn_ripple_color
 color mtrl_btn_stroke_color_selector
@@ -1761,6 +1763,7 @@ color purple_700
 color radiobutton_themeable_attribute_color
 color ripple_material_dark
 color ripple_material_light
+color rojo
 color secondary_text_default_material_dark
 color secondary_text_default_material_light
 color secondary_text_disabled_material_dark
@@ -2485,7 +2488,9 @@ drawable design_ic_visibility
 drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
+drawable gradiente
 drawable heart
+drawable ic_baseline_favorite_24
 drawable ic_baseline_home
 drawable ic_baseline_library_music_24
 drawable ic_baseline_list_24

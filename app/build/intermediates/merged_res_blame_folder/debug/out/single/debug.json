@@ -1,9 +1,5 @@
 [
     {
-        "merged": "com.plataformas.activityprincipal.app-merged_res-35:/layout_fragment_home.xml.flat",
-        "source": "com.plataformas.activityprincipal.app-main-37:/layout/fragment_home.xml"
-    },
-    {
         "merged": "C:\\Users\\jsken\\.gradle\\daemon\\7.3.3\\com.plataformas.activityprincipal.app-merged_res-35:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
         "source": "C:\\Users\\jsken\\.gradle\\daemon\\7.3.3\\com.plataformas.activityprincipal.app-main-37:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
@@ -12,12 +8,12 @@
         "source": "C:\\Users\\jsken\\.gradle\\daemon\\7.3.3\\com.plataformas.activityprincipal.app-main-37:\\mipmap-xxxhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\jsken\\.gradle\\daemon\\7.3.3\\com.plataformas.activityprincipal.app-merged_res-35:\\layout_fragment_home.xml.flat",
-        "source": "C:\\Users\\jsken\\.gradle\\daemon\\7.3.3\\com.plataformas.activityprincipal.app-main-37:\\layout\\fragment_home.xml"
-    },
-    {
         "merged": "C:\\Users\\jsken\\.gradle\\daemon\\7.3.3\\com.plataformas.activityprincipal.app-merged_res-35:\\drawable_backround3.xml.flat",
         "source": "C:\\Users\\jsken\\.gradle\\daemon\\7.3.3\\com.plataformas.activityprincipal.app-main-37:\\drawable\\backround3.xml"
+    },
+    {
+        "merged": "C:\\Users\\jsken\\.gradle\\daemon\\7.3.3\\com.plataformas.activityprincipal.app-merged_res-35:\\layout_fragment_home.xml.flat",
+        "source": "C:\\Users\\jsken\\.gradle\\daemon\\7.3.3\\com.plataformas.activityprincipal.app-main-37:\\layout\\fragment_home.xml"
     },
     {
         "merged": "C:\\Users\\jsken\\.gradle\\daemon\\7.3.3\\com.plataformas.activityprincipal.app-merged_res-35:\\drawable_background1.xml.flat",
@@ -88,6 +84,10 @@
         "source": "C:\\Users\\jsken\\.gradle\\daemon\\7.3.3\\com.plataformas.activityprincipal.app-main-37:\\drawable\\background2.xml"
     },
     {
+        "merged": "com.plataformas.activityprincipal.app-merged_res-35:/drawable_gradiente.xml.flat",
+        "source": "com.plataformas.activityprincipal.app-main-37:/drawable/gradiente.xml"
+    },
+    {
         "merged": "C:\\Users\\jsken\\.gradle\\daemon\\7.3.3\\com.plataformas.activityprincipal.app-merged_res-35:\\layout_fragment_search.xml.flat",
         "source": "C:\\Users\\jsken\\.gradle\\daemon\\7.3.3\\com.plataformas.activityprincipal.app-main-37:\\layout\\fragment_search.xml"
     },
@@ -116,10 +116,6 @@
         "source": "C:\\Users\\jsken\\.gradle\\daemon\\7.3.3\\com.plataformas.activityprincipal.app-main-37:\\drawable\\ic_baseline_list_24.xml"
     },
     {
-        "merged": "com.plataformas.activityprincipal.app-merged_res-35:/layout_fragment_search.xml.flat",
-        "source": "com.plataformas.activityprincipal.app-main-37:/layout/fragment_search.xml"
-    },
-    {
         "merged": "com.plataformas.activityprincipal.app-merged_res-35:/layout_fragment_playlist.xml.flat",
         "source": "com.plataformas.activityprincipal.app-main-37:/layout/fragment_playlist.xml"
     },
@@ -138,6 +134,10 @@
     {
         "merged": "C:\\Users\\jsken\\.gradle\\daemon\\7.3.3\\com.plataformas.activityprincipal.app-merged_res-35:\\mipmap-hdpi_ic_launcher_round.webp.flat",
         "source": "C:\\Users\\jsken\\.gradle\\daemon\\7.3.3\\com.plataformas.activityprincipal.app-main-37:\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.plataformas.activityprincipal.app-merged_res-35:/drawable_ic_baseline_favorite_24.xml.flat",
+        "source": "com.plataformas.activityprincipal.app-main-37:/drawable/ic_baseline_favorite_24.xml"
     },
     {
         "merged": "C:\\Users\\jsken\\.gradle\\daemon\\7.3.3\\com.plataformas.activityprincipal.app-merged_res-35:\\mipmap-hdpi_ic_launcher.webp.flat",
