@@ -10,4 +10,13 @@
     <dimen name="tamañogenero">20sp</dimen>
     <dimen name="anchomusiquita">35dp</dimen>
     <dimen name="margenmusiquita">10dp</dimen>
+    <dimen name="tamañosearch">58dp</dimen>
+    <dimen name="tamañoadd">8dp</dimen>
+    <dimen name="tamañoConstraint">139dp</dimen>
+    <dimen name="margenConstraint">20dp</dimen>
+    <dimen name="dimenflechita">30dp</dimen>
+    <dimen name="margenizflechita">15dp</dimen>
+    <dimen name="tamañocora">70dp</dimen>
+    <dimen name="none">0dp</dimen>
+    <dimen name="tamañotitulo">25sp</dimen>
 </resources>

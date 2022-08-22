@@ -16,8 +16,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
-        android:text="Good Morning"
-        android:textSize="25dp"
+        android:text="@string/good_morning"
+        android:textSize="@dimen/tamañotitulo"
         android:textColor="@color/black"
 
         />
@@ -28,8 +28,8 @@
         app:layout_constraintStart_toStartOf="@id/Saludo"
         app:layout_constraintEnd_toStartOf="@id/Apellido"
         app:layout_constraintTop_toBottomOf="@+id/Saludo"
-        android:text="Nombre"
-        android:textSize="15dp"
+        android:text="@string/nombre"
+        android:textSize="@dimen/songsdimen"
         />
     <TextView
         android:id="@+id/Apellido"
@@ -38,8 +38,8 @@
         app:layout_constraintStart_toEndOf="@id/Nombre"
         app:layout_constraintEnd_toEndOf="@id/Saludo"
         app:layout_constraintTop_toBottomOf="@+id/Saludo"
-        android:text="Apellido"
-        android:textSize="15dp"
+        android:text="@string/apellido"
+        android:textSize="@dimen/songsdimen"
         />
 
 

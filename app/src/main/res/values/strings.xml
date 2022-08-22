@@ -9,4 +9,9 @@
     <string name="edm">EDM</string>
     <string name="urban">Urban</string>
     <string name="library">Your Library</string>
+    <string name="most_recent">Most Recent</string>
+    <string name="liked_songs">Liked Songs</string>
+    <string name="good_morning">Good Morning,</string>
+    <string name="nombre">Nombre</string>
+    <string name="apellido">Apellido</string>
 </resources>

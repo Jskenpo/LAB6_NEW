@@ -11,7 +11,7 @@
         android:id="@+id/linearLayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="25dp"
+        android:layout_marginTop="@dimen/margin"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -19,7 +19,7 @@
 
         <ImageView
             android:id="@+id/UserImage"
-            android:layout_width="0dp"
+            android:layout_width="@dimen/none"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:src="@drawable/ic_baseline_person_24" />
@@ -30,18 +30,18 @@
             android:layout_height="wrap_content"
             android:text="@string/library"
             android:textStyle="bold"
-            android:textSize="20dp"
+            android:textSize="@dimen/tamañogenero"
             android:textColor="@color/black"/>
 
         <ImageView
             android:id="@+id/Search"
-            android:layout_width="58dp"
+            android:layout_width="@dimen/tamañosearch"
             android:layout_height="wrap_content"
             android:src="@drawable/ic_baseline_search" />
 
         <ImageView
             android:id="@+id/Add_Playlist"
-            android:layout_width="8dp"
+            android:layout_width="@dimen/tamañoadd"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:src="@drawable/ic_baseline_playlist_add_24" />
@@ -51,9 +51,9 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/widget"
         android:layout_width="match_parent"
-        android:layout_height="139dp"
-        android:layout_margin="20dp"
-        android:background="#e0e0e0"
+        android:layout_height="@dimen/tamañoConstraint"
+        android:layout_margin="@dimen/margenConstraint"
+        android:background="@color/lighter_gray"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/linearLayout"
@@ -62,9 +62,9 @@
 
         <ImageView
             android:id="@+id/arrows"
-            android:layout_width="30dp"
-            android:layout_height="30dp"
-            android:layout_marginStart="15dp"
+            android:layout_width="@dimen/dimenflechita"
+            android:layout_height="@dimen/dimenflechita"
+            android:layout_marginStart="@dimen/margenizflechita"
             android:src="@drawable/arrows"
             app:layout_constraintStart_toStartOf="@id/widget"
             app:layout_constraintTop_toTopOf="@id/widget"
@@ -76,18 +76,18 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
-            android:text="Most Recent"
-            android:textSize="15dp"
+            android:text="@string/most_recent"
+            android:textSize="@dimen/songsdimen"
             app:layout_constraintStart_toEndOf="@id/arrows"
             app:layout_constraintTop_toTopOf="@id/widget" />
 
         <ImageView
             android:id="@+id/cora"
-            android:layout_width="70dp"
-            android:layout_height="70dp"
-            android:layout_marginStart="15dp"
-            android:layout_marginTop="20dp"
-            android:layout_marginBottom="15dp"
+            android:layout_width="@dimen/tamañocora"
+            android:layout_height="@dimen/tamañocora"
+            android:layout_marginStart="@dimen/margenizflechita"
+            android:layout_marginTop="@dimen/margenConstraint"
+            android:layout_marginBottom="@dimen/margenizflechita"
             android:src="@drawable/heart"
             app:layout_constraintStart_toStartOf="@+id/widget"
             app:layout_constraintTop_toBottomOf="@+id/mostRecent" />
@@ -96,11 +96,11 @@
             android:id="@+id/LikedSongs"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="20dp"
-            android:layout_marginTop="10dp"
-            android:text="Liked Songs"
+            android:layout_marginStart="@dimen/margenConstraint"
+            android:layout_marginTop="@dimen/mtexto"
+            android:text="@string/liked_songs"
             android:textColor="@color/black"
-            android:textSize="20dp"
+            android:textSize="@dimen/tamañogenero"
             android:textStyle="bold"
             app:layout_constraintStart_toEndOf="@+id/cora"
             app:layout_constraintTop_toTopOf="@+id/cora" />
@@ -109,8 +109,8 @@
             android:id="@+id/numberOfSongs"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="20dp"
-            android:layout_marginTop="10dp"
+            android:layout_marginStart="@dimen/margenConstraint"
+            android:layout_marginTop="@dimen/margenmusiquita"
             android:text="@string/songs"
             android:textColor="@color/grey"
             android:textSize="@dimen/songsdimen"

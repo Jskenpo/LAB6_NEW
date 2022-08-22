@@ -20,7 +20,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun setListener() {
-        bottomNav.setOnNavigationItemSelectedListener { item ->
+        bottomNav.setOnItemSelectedListener { item ->
             when (item.itemId) {
                 R.id.action_home -> setFragment(HomeFragment.newInstance("Jose", "Santisteban"))
                 R.id.action_search -> setFragment(SearchFragment())
