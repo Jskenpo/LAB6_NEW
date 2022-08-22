@@ -59,13 +59,32 @@
         android:layout_margin="20dp"
 
         >
+        <ImageView
+            android:id="@+id/arrows"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            app:layout_constraintStart_toStartOf="@id/widget"
+            app:layout_constraintTop_toTopOf="@id/widget"
+            android:src="@drawable/arrows"
+
+            />
+        <TextView
+            android:id="@+id/mostRecent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            app:layout_constraintTop_toTopOf="@id/widget"
+            app:layout_constraintStart_toEndOf="@id/arrows"
+            android:text="Most Recent"
+            />
 
         <ImageView
             android:id="@+id/cora"
             android:layout_width="70dp"
             android:layout_height="70dp"
+            android:layout_marginTop="20dp"
             app:layout_constraintStart_toStartOf="@+id/widget"
-            app:layout_constraintTop_toTopOf="@+id/widget"
+            app:layout_constraintTop_toBottomOf="@+id/mostRecent"
             android:src="@drawable/heart"
             />
         <TextView
@@ -79,7 +98,7 @@
             android:textSize="20dp"
             android:textColor="@color/black"
             app:layout_constraintStart_toEndOf="@+id/cora"
-            app:layout_constraintTop_toTopOf="@+id/widget"
+            app:layout_constraintTop_toTopOf="@+id/cora"
             />
         <TextView
             android:layout_width="wrap_content"
