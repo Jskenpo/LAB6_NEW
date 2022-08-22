@@ -1,4 +1,4 @@
-#Mon Aug 22 17:27:50 CST 2022
+#Mon Aug 22 17:33:29 CST 2022
 base.2=C\:\\Users\\jsken\\OneDrive\\Escritorio\\UVG\\plataformas2\\LAB6_NEW\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\12\\classes.dex
 path.2=12/classes.dex
 base.1=C\:\\Users\\jsken\\OneDrive\\Escritorio\\UVG\\plataformas2\\LAB6_NEW\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
