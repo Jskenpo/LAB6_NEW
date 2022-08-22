@@ -25,7 +25,7 @@ class PlaylistFragment : Fragment(R.layout.fragment_playlist) {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         imageCount = view.findViewById(R.id.Add_Playlist)
-        songs = view.findViewById(R.id.LikedSongs)
+        songs = view.findViewById(R.id.numberOfSongs)
         setListeners()
         super.onViewCreated(view, savedInstanceState)
     }

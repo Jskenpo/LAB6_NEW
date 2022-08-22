@@ -51,42 +51,47 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/widget"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/linearLayout"
-        android:backgroundTint="@color/light_grey"
+        android:layout_height="139dp"
         android:layout_margin="20dp"
+        android:background="#e0e0e0"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/linearLayout"
 
         >
+
         <ImageView
             android:id="@+id/arrows"
             android:layout_width="30dp"
             android:layout_height="30dp"
+            android:layout_marginStart="15dp"
+            android:src="@drawable/arrows"
             app:layout_constraintStart_toStartOf="@id/widget"
             app:layout_constraintTop_toTopOf="@id/widget"
-            android:src="@drawable/arrows"
 
             />
+
         <TextView
             android:id="@+id/mostRecent"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
-            app:layout_constraintTop_toTopOf="@id/widget"
-            app:layout_constraintStart_toEndOf="@id/arrows"
             android:text="Most Recent"
-            />
+            android:textSize="15dp"
+            app:layout_constraintStart_toEndOf="@id/arrows"
+            app:layout_constraintTop_toTopOf="@id/widget" />
 
         <ImageView
             android:id="@+id/cora"
             android:layout_width="70dp"
             android:layout_height="70dp"
+            android:layout_marginStart="15dp"
             android:layout_marginTop="20dp"
-            app:layout_constraintStart_toStartOf="@+id/widget"
-            app:layout_constraintTop_toBottomOf="@+id/mostRecent"
+            android:layout_marginBottom="15dp"
             android:src="@drawable/heart"
-            />
+            app:layout_constraintStart_toStartOf="@+id/widget"
+            app:layout_constraintTop_toBottomOf="@+id/mostRecent" />
+
         <TextView
             android:id="@+id/LikedSongs"
             android:layout_width="wrap_content"
@@ -94,23 +99,23 @@
             android:layout_marginStart="20dp"
             android:layout_marginTop="10dp"
             android:text="Liked Songs"
-            android:textStyle="bold"
-            android:textSize="20dp"
             android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold"
             app:layout_constraintStart_toEndOf="@+id/cora"
-            app:layout_constraintTop_toTopOf="@+id/cora"
-            />
+            app:layout_constraintTop_toTopOf="@+id/cora" />
+
         <TextView
+            android:id="@+id/numberOfSongs"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="20dp"
             android:layout_marginTop="10dp"
             android:text="@string/songs"
+            android:textColor="@color/grey"
             android:textSize="@dimen/songsdimen"
-            android:textColor="@color/light_grey"
             app:layout_constraintStart_toEndOf="@+id/cora"
-            app:layout_constraintTop_toBottomOf="@+id/LikedSongs"
-            />
+            app:layout_constraintTop_toBottomOf="@+id/LikedSongs" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 
 
