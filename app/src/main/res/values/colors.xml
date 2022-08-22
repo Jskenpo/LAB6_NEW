@@ -11,4 +11,10 @@
     <color name="grey">#616161</color>
     <color name="dark_grey">#424242</color>
     <color name="lighter_gray">#e0e0e0</color>
+
+    <color name="rojo">#d50000</color>
+    <color name="menosrojo">#ff8a80</color>
+    <color name="blanco">#FCFDFD</color>
+
+
 </resources>
