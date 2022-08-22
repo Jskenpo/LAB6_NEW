@@ -3,6 +3,7 @@ local
 color black
 color blanco
 color dark_grey
+color darker_grey
 color grey
 color light_grey
 color lighter_gray

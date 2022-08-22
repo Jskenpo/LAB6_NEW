@@ -4,7 +4,10 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context=".PlaylistFragment">
+    tools:context=".PlaylistFragment"
+    android:background="@color/darker_grey"
+
+    >
 
     <!-- TODO: Update blank fragment layout -->
     <LinearLayout
@@ -22,7 +25,8 @@
             android:layout_width="@dimen/none"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:src="@drawable/ic_baseline_person_24" />
+            android:src="@drawable/ic_baseline_person_24"
+            app:tint="@color/white" />
 
         <TextView
             android:id="@+id/textView"
@@ -31,20 +35,22 @@
             android:text="@string/library"
             android:textStyle="bold"
             android:textSize="@dimen/tamañogenero"
-            android:textColor="@color/black"/>
+            android:textColor="@color/white"/>
 
         <ImageView
             android:id="@+id/Search"
             android:layout_width="@dimen/tamañosearch"
             android:layout_height="wrap_content"
-            android:src="@drawable/ic_baseline_search" />
+            android:src="@drawable/ic_baseline_search"
+            app:tint="@color/white" />
 
         <ImageView
             android:id="@+id/Add_Playlist"
             android:layout_width="@dimen/tamañoadd"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:src="@drawable/ic_baseline_playlist_add_24" />
+            android:src="@drawable/ic_baseline_playlist_add_24"
+            app:tint="@color/white" />
 
     </LinearLayout>
 
@@ -53,7 +59,7 @@
         android:layout_width="match_parent"
         android:layout_height="@dimen/tamañoConstraint"
         android:layout_margin="@dimen/margenConstraint"
-        android:background="@color/lighter_gray"
+        android:background="@color/dark_grey"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/linearLayout"
@@ -69,7 +75,7 @@
             app:layout_constraintStart_toStartOf="@id/widget"
             app:layout_constraintTop_toTopOf="@id/widget"
 
-            />
+            app:tint="@color/white" />
 
         <TextView
             android:id="@+id/mostRecent"
@@ -77,6 +83,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
             android:text="@string/most_recent"
+            android:textColor="@color/white"
             android:textSize="@dimen/songsdimen"
             app:layout_constraintStart_toEndOf="@id/arrows"
             app:layout_constraintTop_toTopOf="@id/widget" />
@@ -91,7 +98,9 @@
             android:src="@drawable/ic_baseline_favorite_24"
             android:background="@drawable/gradiente"
             app:layout_constraintStart_toStartOf="@+id/widget"
-            app:layout_constraintTop_toBottomOf="@+id/mostRecent" />
+            app:layout_constraintTop_toBottomOf="@+id/mostRecent"
+            android:padding="15dp"
+            />
 
         <TextView
             android:id="@+id/LikedSongs"
@@ -100,7 +109,7 @@
             android:layout_marginStart="@dimen/margenConstraint"
             android:layout_marginTop="@dimen/mtexto"
             android:text="@string/liked_songs"
-            android:textColor="@color/black"
+            android:textColor="@color/white"
             android:textSize="@dimen/tamañogenero"
             android:textStyle="bold"
             app:layout_constraintStart_toEndOf="@+id/cora"
@@ -113,7 +122,7 @@
             android:layout_marginStart="@dimen/margenConstraint"
             android:layout_marginTop="@dimen/margenmusiquita"
             android:text="@string/songs"
-            android:textColor="@color/grey"
+            android:textColor="@color/lighter_gray"
             android:textSize="@dimen/songsdimen"
             app:layout_constraintStart_toEndOf="@+id/cora"
             app:layout_constraintTop_toBottomOf="@+id/LikedSongs" />
