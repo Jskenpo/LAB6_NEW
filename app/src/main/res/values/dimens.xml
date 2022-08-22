@@ -1,4 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <dimen name="songsdimen">15sp</dimen>
+    <dimen name="t1">35sp</dimen>
+    <dimen name="t2">30dp</dimen>
+    <dimen name="constraints">150dp</dimen>
+    <dimen name="margin">25dp</dimen>
+    <dimen name="constraints2">120dp</dimen>
+    <dimen name="mtexto">10dp</dimen>
+    <dimen name="tamañogenero">20sp</dimen>
+    <dimen name="anchomusiquita">35dp</dimen>
+    <dimen name="margenmusiquita">10dp</dimen>
 </resources>

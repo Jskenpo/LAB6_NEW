@@ -12,63 +12,146 @@
         android:layout_height="wrap_content"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        android:text="Search"
+        android:text="@string/search"
         android:textColor="@color/black"
         android:textStyle="bold"
-        android:textSize="35sp"
-        android:layout_margin="30dp"
+        android:textSize="@dimen/t1"
+        android:layout_margin="@dimen/t2"
 
         />
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/widget1"
-        android:layout_marginTop="25dp"
-        android:layout_width="150dp"
-        android:layout_height="120dp"
+        android:layout_marginTop="@dimen/margin"
+        android:layout_width="@dimen/constraints"
+        android:layout_height="@dimen/constraints2"
         app:layout_constraintTop_toBottomOf="@id/Search"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toStartOf="@id/widget2"
         android:background="@drawable/background1"
         >
 
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/mtexto"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:textSize="@dimen/tamañogenero"
+            android:text="@string/metal"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            />
+
+        <ImageView
+            android:layout_width="@dimen/anchomusiquita"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:src="@drawable/ic_baseline_library_music_24"
+            android:layout_margin="@dimen/margenmusiquita"
+            />
+
     </androidx.constraintlayout.widget.ConstraintLayout>
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/widget2"
-        android:layout_marginTop="25dp"
-        android:layout_width="150dp"
-        android:layout_height="120dp"
+        android:layout_marginTop="@dimen/margin"
+        android:layout_width="@dimen/constraints"
+        android:layout_height="@dimen/constraints2"
         app:layout_constraintTop_toBottomOf="@id/Search"
         app:layout_constraintStart_toEndOf="@id/widget1"
         app:layout_constraintEnd_toEndOf="parent"
         android:background="@drawable/background2"
         >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/mtexto"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:textSize="@dimen/tamañogenero"
+            android:text="@string/edm"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            />
+
+        <ImageView
+            android:layout_width="@dimen/anchomusiquita"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:src="@drawable/ic_baseline_library_music_24"
+            android:layout_margin="@dimen/margenmusiquita"
+            />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/widget3"
-        android:layout_width="150dp"
-        android:layout_height="120dp"
-        android:layout_marginTop="25dp"
+        android:layout_marginTop="@dimen/margin"
+        android:layout_width="@dimen/constraints"
+        android:layout_height="@dimen/constraints2"
         app:layout_constraintTop_toBottomOf="@id/widget1"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toStartOf="@id/widget4"
         android:background="@drawable/backround3"
         >
 
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/mtexto"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:textSize="@dimen/tamañogenero"
+            android:text="@string/urban"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            />
+
+        <ImageView
+            android:layout_width="@dimen/anchomusiquita"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:src="@drawable/ic_baseline_library_music_24"
+            android:layout_margin="@dimen/margenmusiquita"
+            />
+
     </androidx.constraintlayout.widget.ConstraintLayout>
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/widget4"
-        android:layout_marginTop="25dp"
-        android:layout_width="150dp"
-        android:layout_height="120dp"
+        android:layout_marginTop="@dimen/margin"
+        android:layout_width="@dimen/constraints"
+        android:layout_height="@dimen/constraints2"
         app:layout_constraintTop_toBottomOf="@id/widget2"
         app:layout_constraintStart_toEndOf="@id/widget3"
         app:layout_constraintEnd_toEndOf="parent"
         android:background="@drawable/background4"
         >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/mtexto"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:textSize="@dimen/tamañogenero"
+            android:text="@string/rock"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            />
+
+        <ImageView
+            android:layout_width="@dimen/anchomusiquita"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:src="@drawable/ic_baseline_library_music_24"
+            android:layout_margin="@dimen/margenmusiquita"
+            />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
